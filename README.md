@@ -22,7 +22,7 @@ Create a file named `now-secrets.json` at the top level of this project and ente
 
 That's it! You're now ready to start the service.
 
-### Usage
+### Development
 
 Start the service in development mode:
 
@@ -33,6 +33,13 @@ Open your browser, and go to this URL: http://localhost:3000
 For production usage, start the service with:
 
     npm start
+
+### Usage
+
+Using the service is trivial:
+
+- To get the JSON output, go to this URL in your browser: http://localhost:3000
+- To get the CSV export, go to the following: http://localhost:3000/download
 
 ## License
 
