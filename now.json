@@ -1,0 +1,5 @@
+{
+  "env": {
+    "INVOICE-NINJA-TOKEN": "@invoice-ninja-token"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "invoiceninja-members",
+  "version": "1.0.0",
+  "description": "Creates a list of active membership data based on InvoiceNinja's API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-network-infrastructure/invoiceninja-members.git"
+  },
+  "author": "Gonzalo Casas <gonzalocasas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^9.0.0",
+    "moment": "^2.19.0",
+    "now-env": "^1.4.0"
+  }
+}
