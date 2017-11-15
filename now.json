@@ -1,5 +1,6 @@
 {
   "env": {
-    "INVOICE-NINJA-TOKEN": "@invoice-ninja-token"
+    "INVOICE_NINJA_TOKEN": "@invoice-ninja-token",
+    "INVOICE_NINJA_MEMBERSHIP_TYPE_FIELD": "custom_value1"
   }
 }

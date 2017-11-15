@@ -4,7 +4,8 @@
   "description": "Creates a list of active membership data based on InvoiceNinja's API.",
   "main": "index.js",
   "scripts": {
-    "start": "micro"
+    "start": "micro",
+    "dev": "micro-dev"
   },
   "repository": {
     "type": "git",
@@ -13,9 +14,12 @@
   "author": "Gonzalo Casas <gonzalocasas@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "micro": "^9.0.0",
+    "micro": "^9.0.1",
     "moment": "^2.19.0",
     "node-fetch": "^1.7.3",
     "now-env": "^1.4.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.4.0"
   }
 }
