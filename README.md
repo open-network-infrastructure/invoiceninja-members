@@ -17,18 +17,22 @@ Open your terminal, go to the project's folder and run:
 Create a file named `now-secrets.json` at the top level of this project and enter the secrets  (values starting with the `@`) from the `now.json` file. Example:
 
     {
-      "@invoice-ninja-token": "ieE32uA4Sfq32Diud3sDAuScdDSisfSi"
+      "@invoice-ninja-token": "insert_your_invoice_ninja_token_here"
     }
 
 That's it! You're now ready to start the service.
 
 ### Usage
 
-Start the service:
+Start the service in development mode:
 
-    npm start
+    npm run dev
 
 Open your browser, and go to this URL: http://localhost:3000
+
+For production usage, start the service with:
+
+    npm start
 
 ## License
 
