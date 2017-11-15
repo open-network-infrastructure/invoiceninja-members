@@ -15,6 +15,7 @@
   "dependencies": {
     "micro": "^9.0.0",
     "moment": "^2.19.0",
+    "node-fetch": "^1.7.3",
     "now-env": "^1.4.0"
   }
 }
