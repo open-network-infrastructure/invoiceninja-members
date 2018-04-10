@@ -16,7 +16,7 @@
   "dependencies": {
     "json2csv": "^3.11.5",
     "micro": "^9.0.1",
-    "moment": "^2.19.0",
+    "moment": "^2.22.0",
     "node-fetch": "^1.7.3",
     "now-env": "^1.4.0"
   },
